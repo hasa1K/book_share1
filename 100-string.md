@@ -11,3 +11,5 @@ s2 := s1[:5] // aaaaa
 ```
 如果s2一直被引用，则s1永远无法被gc回收。
 可以采取string([]byte(s1[:5])), go1.18之后可以采取strings.Clone函数方式
+
+![image](https://github.com/hasa1K/book_share1/assets/53266479/9f215960-2066-440e-b18c-3f3f5b4dc37b)
